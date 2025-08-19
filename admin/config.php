@@ -4,7 +4,7 @@ $servername = "localhost";
 $username   = "root";
 $password   = "";
 $dbname     = "student_staff_integration";
-
+//added
 // Create a connection
 $conn = new mysqli( $servername, $username, $password, $dbname );
 
@@ -13,3 +13,4 @@ if ( $conn->connect_error ) {
 	echo json_encode( [ 'success' => false, 'message' => 'Database connection failed: ' . $conn->connect_error ] );
 	exit;
 }
+
