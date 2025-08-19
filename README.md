@@ -32,4 +32,5 @@ A web application designed for colleges to facilitate seamless communication bet
 1. Clone the repository:
 
    ```bash
+git@github.com:sivasubramanianj2002/student-staff.git
   
